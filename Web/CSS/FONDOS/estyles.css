@@ -1,0 +1,25 @@
+body{
+    background-color: #0af;
+    font-family: sans-serif;
+    margin: 0;
+}
+p{
+    padding: 10px;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+    background-color: #0005;
+    background-image: url(https://imgs.search.brave.com/kNkRmtJsfylScAzqdgjIjZYoPFT49Bv9QM2z43ztAYI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbGF0/Zm9ybS5ub2xhLmVh/dGVyLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvc2l0ZXMvMTgv/Y2hvcnVzL3VwbG9h/ZHMvY2hvcnVzX2Fz/c2V0L2ZpbGUvODE5/NzYwMy9EVEJfMDE0/NC5qcGc_cXVhbGl0/eT05MCZzdHJpcD1h/bGwmY3JvcD0wLDAs/MTAwLDEwMCZ3PTI0/MDA);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.opaco{
+    background-color: #0006;
+    width: 100%;
+    height: 100%;
+}

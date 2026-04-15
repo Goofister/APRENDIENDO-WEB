@@ -1,0 +1,19 @@
+p{
+    color: red;
+    font-family: ANTHONY;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+strong{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+div{
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 20px;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    font-size: 20px;
+
+}
+
+span{
+    font-size: 14px;
+    color: #999;
+}
+
+p{
+    text-align: justify;
+    color: #555;
+    font-size: 0.8em;
+    line-height: 1.9ex;
+}

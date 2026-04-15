@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+    font-size: 45px;
+}
+h2{
+    color: blueviolet;
+    font-size: 30px;
+}
+p{
+    color: red;
+}
+
+.faltante{
+    color: red;
+    
+}
+#secreto{
+    color: blue;
+}
