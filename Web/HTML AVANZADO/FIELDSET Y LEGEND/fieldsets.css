@@ -19,11 +19,7 @@ form{
     padding-bottom: 3px;
     margin-top: 30px;
     font-size: 16px;
-}
-
-.form_input{
     padding: 10px 20px;
-
 }
 
 input,textarea,select{
@@ -34,22 +30,12 @@ input,textarea,select{
     border-left: 3px solid #666;    
     box-shadow: 0px 0px 5px #0007;
     border-radius: 3px;
-
+    margin-top: 5px;
 }
-option{
-    background-color: #eee;
+fieldset{
+    margin: 20px 0px;
+    border: 2px solid #6666;
 }
-textarea{
-    resize: none;
-    min-height: 100px;
-    font-family: sans-serif;
-    
-}
-label{
-    font-size: 0.88em;
-    line-height: 1.5;
-}
-.checkbox{
-    width: auto;
-    height: 12px;
+legend{
+    padding: 0px 5px;
 }

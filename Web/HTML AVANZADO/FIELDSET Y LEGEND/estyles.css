@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
-    color: #444;
+    color: #222;
+    background: linear-gradient(#333,#000);
 }
 h2{
     text-align: center;
@@ -13,11 +14,12 @@ form{
     background: #eee;
     max-width: 500px;
     margin: auto;
-    box-shadow: 0px 0px 10px #0007;
+    box-shadow: 0px 0px 10px #fffe;
     border-radius: 10px;
     padding-top: 1px;
     padding-bottom: 3px;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 16px;
 }
 
@@ -52,4 +54,16 @@ label{
 .checkbox{
     width: auto;
     height: 12px;
+}
+
+fieldset{
+    border-radius: 5px;
+    border: 2px solid #777;
+    margin: 0px 20px;
+    padding: 10px 0px;
+}
+legend{
+    padding: 0px 10px;
+    font-size: 1em;
+    color: #777;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Enlaces</title>
+    <link rel="stylesheet" href="estyles.css">
+    <link rel="icon" href="logo.png" type="image/png" >
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+        <!-- INPUT SENCILLOS --->
+            <div class="form_input">
+                <label >Nombre Completo 
+                    <input type="text" placeholder="Jhon doe">
+                </label>
+            </div>
+
+            <div class="form_input">
+                <label >Correo Electronico  
+                    <input type="email" placeholder="ejemplo@gmail.com" id="Email">
+                </label>
+            </div>
+
+            <div class="form_input">
+                <label >Asunto 
+                    <input type="text" placeholder="Asunto de tu mensaje">
+                </label>
+            </div>
+            </fieldset>
+        <!-- SELECT & OPTIONS --->
+        <div class="form_input">
+            <label >Tipos de usarios 
+                <SElect name="type-of-user">
+                    <option value="user1">Seguidor/a</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Subscriptores</option>
+                    <option value="user4">Otros</option>    
+                </SElect>
+            </label>
+        </div>
+
+        <!-- DATALIST & OPTIONS --->
+        <div class="form_input">
+            <label >referente
+                <input list="referente">
+                <datalist id="referente" >
+                    <option value="Anthony">Creador</option>
+                    <option value="Empresa">Referente</option>
+                    <option value="Un amigo">Invitacion personal</option>
+                    <option value="Otros"></option>    
+                </datalist>
+            </label>
+        </div>
+
+        <!-- TEXT AREA --->
+        <div class="form_input">
+            <label >Tu comentario  
+                <textarea rows="6" maxlength="340" placeholder="Deja tu comentario ..."></textarea>
+            </label>
+        </div>
+
+        <!-- CHECKBOX --->
+        <div class="form_input">
+            <label  >Acepto los <a href="terms.html" target="_blank">Terminos y Condiciones</a> 
+                <input class="checkbox" type="checkbox" >
+            </label>
+        </div>
+    </form>
+</body>
+</html>
