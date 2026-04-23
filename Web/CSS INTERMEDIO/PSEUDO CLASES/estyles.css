@@ -1,0 +1,28 @@
+h1{
+    color: #00F;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* cuando pasamos el mause*/
+h1:hover{
+    background-color: #aaa;
+    color: #000;
+}
+
+
+/* cuando se da el click*/
+h1:active{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Seleccionando el Primer li*/
+li:first-child:hover{
+    color: #0f0;
+}
+
+/* Seleccionando el Ultimo li*/
+li:last-child{
+    color: #00f;
+}
