@@ -1,0 +1,25 @@
+/*SELECT POR ATRIBUTO  */
+img[src$="logo.png"] {
+    width: 300px;
+}
+
+/*SELECT POR DESENDIENTE  */
+ul strong{
+    color: #00f;
+}
+
+/*SELECT POR HIJO DIRECTO  */
+ul > li{
+    color: #f00;
+}
+
+/*SELECT ADYACENTE  */
+h1 + p {
+    color: #00f;
+}
+
+/*SELECT DE HERMANOS GENREALES  */
+
+H1 ~ P{
+    background-color: #f00;
+}
