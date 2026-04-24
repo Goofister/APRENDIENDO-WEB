@@ -26,3 +26,53 @@ li:first-child:hover{
 li:last-child{
     color: #00f;
 }
+
+/* Seleccionando el Que uno quiere*/
+li:nth-child(3){
+    color: #a0f;
+}
+
+li:nth-child(4n){
+    color: #a30;
+}
+li:nth-of-type(5){
+    color: #08f;
+}
+
+.lista li:not(.excluir){
+    background-color: #ccc;
+}
+
+div{
+    border: 1px solid #444;
+}
+div:empty{
+    border: none;
+}
+/* checked*/
+input[type="checkbox"]{
+    margin: 50px;
+}
+input[type="checkbox"]:checked{
+    margin:0 ;
+}
+/*enlaces visitados*/
+a:link{
+    color: #a30;
+}
+
+/*enlaces no visitados*/
+a:visited{
+    color: #f90;
+}
+
+
+/*Input Invalid*/
+input:invalid{
+    color: #f00;
+}
+
+/*Input Validos*/
+input:valid{
+    color: #00f;
+}

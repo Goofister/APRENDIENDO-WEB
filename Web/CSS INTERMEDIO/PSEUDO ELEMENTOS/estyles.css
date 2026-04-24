@@ -1,0 +1,33 @@
+div{
+    padding: 20px;
+}
+h1::first-letter{
+    color: red;
+    font-size: 45px;
+}
+
+div::first-line{
+    color: red;
+}
+
+*::selection{
+    background-color: brown;
+    color: #fff;
+}
+
+input::placeholder{
+    background-color: #aaa;
+}
+li::marker{
+    color: blue;
+}
+
+li::before{
+    content: 'Texto antes ';
+    color: #aaa;
+}
+
+li::after{
+    content: ' Texto despues';
+    color: red;
+}
